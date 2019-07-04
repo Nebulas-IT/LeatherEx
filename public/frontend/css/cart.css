@@ -1,0 +1,43 @@
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.fa-stack[data-count]:after {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    content: attr(data-count);
+    font-size: 60%;
+    padding: .6em;
+    border-radius: 999px;
+    line-height: .75em;
+    color: white;
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+    background: #000;
+}
+
+.fa-circle {
+    color: rgba(29, 29, 29, .7);
+    background: green;
+}
+
+.black-cart {
+    color: #000;
+    background: white;
+}
+
+.header-cart-icon {
+    font-size: 10px;
+    padding-right: 25px;
+}
+
+.header-cart-icon a {
+    margin-top: -1em;
+}

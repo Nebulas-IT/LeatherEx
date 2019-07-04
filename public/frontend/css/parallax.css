@@ -1,0 +1,121 @@
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url(../../img/static/Goods_Backpacks.jpg);
+    max-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url(../../img/static/websitephil.jpg);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.bgimg-3 {
+    background-image: url(../../img/img_parallax3.jpg);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /*width: 100%;*/
+    text-align: center;
+    color: #000;
+}
+
+.Index-page-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/*No Need Of Upper CSS*/
+
+
+.parallax-window {
+    height: 70vh;
+    width: 100vw;
+    background: transparent;
+    margin: -3em 0;
+}
+
+.parallax-window-1 {
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 0 -3em 0;
+}
+
+.parallax-window-2 {
+    min-height: 842px;
+    background: transparent;
+    margin-bottom: -0.80em;
+    background-position: center;
+    background-size: 100% 100vh;
+}
+
+.parallax-window-4 {
+    height: 750px;
+    width: 100vw;
+    background: transparent;
+}
+
+.parallax-window-5 {
+    height: 50vh;
+    width: 100vw;
+    background: transparent;
+}
+
+.parallax-window-single {
+    height: 40vh;
+    width: 100vw;
+    background: transparent;
+}
+
+.parallax-window-2 p, .parallax-window-4 p, .parallax-window-single p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.45px;
+    line-height: 40.6px;
+    overflow-wrap: break-word;
+    pointer-events: auto;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+}
+
+.parallax-window-2 p {
+    padding: 50% 0;
+}
+
+.parallax-window-4 p {
+    padding: 25% 0;
+}
+
+.parallax-window-single p {
+    padding: 5% 0;
+}
